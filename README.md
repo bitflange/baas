@@ -1,3 +1,3 @@
 # Button as a service
 
-Press a button over Wi-Fi with an ESP32 and a micro servo motor.
+Automate button presses over Wi-Fi with a microcontroller and servo motor.
