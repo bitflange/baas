@@ -1,0 +1,66 @@
+bracket-0
+
+Add small percentages of the original side lengths to make more samples.
+
+First lets tackle the outer lengths. Then we'll do the inner lengths.
+The thickness of the frame of the bracket is good, so I want it to change
+proportionally.
+
+The long-side is long enough, but the short-side is to short.
+
+The first batch will try to find the best new length of the long-side to use,
+near the original length (within 100-110% of the original length).
+
+(mm)
+
+INNER
+
++% short-side            long-side
+0  11.84                 22.85
+1  11.96                 23.08
+2  12.08                 23.31
+3  12.20                 24.54
+4  12.32                 24.77
+5  12.44                 24.00
+6  12.56                 24.23
+7  12.68                 24.46
+8  12.80                 24.69
+9  12.92                 24.92
+10 13.04                 24.15
+
+OUTER
+
++%       short-side  long-side
+0        17.09       32.24
+1        17.26       32.56 
+2        17.43       32.88
+3        17.60       33.20 
+4        17.77       33.52
+5        17.94       33.84
+6        18.11       34.16 
+7        18.28       34.48 
+8        18.45       34.80 
+9        18.62       35.12 
+10       18.79       35.44
+
+TODO
+
+(short, long)
+
+3,3
+
+TRIALS
+
+(short, long)
+
+3,3
+6,3
+9,3
+
+3,6
+6,6
+9,6
+
+3,9
+6,9
+9,9
